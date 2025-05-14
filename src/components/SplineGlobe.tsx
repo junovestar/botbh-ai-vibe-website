@@ -28,17 +28,15 @@ const SplineGlobe: React.FC = () => {
   }, []);
   
   return (
-    <section className="py-20 relative">
-      <div ref={sectionRef} className="section-animate h-[600px] relative">
-        <iframe 
-          src='https://my.spline.design/worldplanet-kxRNruJt1AGvt43iS0sGA8T9/' 
-          frameBorder='0' 
-          width='100%' 
-          height='100%'
-          title="3D Globe"
-        />
-      </div>
-    </section>
+    <div ref={sectionRef} className="section-animate fixed top-0 left-0 w-full h-screen -z-10 opacity-40">
+      <iframe 
+        src='https://my.spline.design/worldplanet-kxRNruJt1AGvt43iS0sGA8T9/' 
+        frameBorder='0' 
+        width='100%' 
+        height='100%'
+        title="3D Globe"
+      />
+    </div>
   );
 };
 

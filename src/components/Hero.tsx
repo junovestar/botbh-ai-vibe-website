@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
   }, []);
   
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-20">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-20 relative z-10">
       <div className="container mx-auto px-4 py-20">
         <div ref={sectionRef} className="section-animate text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-light mb-6">

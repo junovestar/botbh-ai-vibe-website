@@ -22,8 +22,8 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      <Hero />
       <SplineGlobe />
+      <Hero />
       <FeaturedIn />
       <Features />
       <HowItWorks />
